@@ -2,7 +2,7 @@
 from msvcrt import kbhit
 
 
-weight=input("Enter your weight :")
+weight=float(input("Enter your weight :"))
 unit=input("kilograms or pounds (K OR L) :")
 
 
@@ -18,4 +18,6 @@ elif unit=="L":
     
 else:
     print(f"{unit} was not valid")
+    
+)
     
